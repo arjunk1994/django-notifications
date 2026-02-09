@@ -10,7 +10,7 @@ from django.db.models.query import QuerySet
 from django.utils import timezone
 from django.utils.html import format_html
 from django.utils.translation import gettext_lazy as _
-from jsonfield.fields import JSONField
+from django.db.models import JSONField
 from model_utils import Choices
 from packaging.version import (
     parse as parse_version,  # pylint: disable=no-name-in-module,import-error
